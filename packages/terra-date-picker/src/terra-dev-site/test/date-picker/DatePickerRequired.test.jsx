@@ -4,6 +4,7 @@ import DatePicker from '../../../../lib/DatePicker';
 const DatePickerRequired = () => (
   <DatePicker
     name="date-input"
+    required
   />
 );
 

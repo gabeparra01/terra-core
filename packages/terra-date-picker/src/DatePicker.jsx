@@ -279,14 +279,14 @@ class DatePicker extends React.Component {
           onClickOutside={this.handleOnClickOutside}
           onSelect={this.handleOnSelect}
           customInput={(
-              <DateInput
-                onInputFocus={this.handleOnInputFocus}
-                onCalendarButtonClick={this.handleOnCalendarButtonClick}
-                inputAttributes={inputAttributes}
-                releaseFocus={releaseFocus}
-                requestFocus={requestFocus}
-                shouldShowPicker={!this.isDefaultDateAcceptable && this.state.selectedDate === null}
-              />
+            <DateInput
+              onInputFocus={this.handleOnInputFocus}
+              onCalendarButtonClick={this.handleOnCalendarButtonClick}
+              inputAttributes={inputAttributes}
+              releaseFocus={releaseFocus}
+              requestFocus={requestFocus}
+              shouldShowPicker={!this.isDefaultDateAcceptable && this.state.selectedDate === null}
+            />
   )}
           excludeDates={exludeMomentDates}
           filterDate={filterDate}
@@ -318,14 +318,14 @@ class DatePicker extends React.Component {
           onClickOutside={this.handleOnClickOutside}
           onSelect={this.handleOnSelect}
           customInput={(
-              <DateInput
-                onInputFocus={this.handleOnInputFocus}
-                onCalendarButtonClick={this.handleOnCalendarButtonClick}
-                inputAttributes={inputAttributes}
-                releaseFocus={releaseFocus}
-                requestFocus={requestFocus}
-                shouldShowPicker={!this.isDefaultDateAcceptable && this.state.selectedDate === null}
-              />
+            <DateInput
+              onInputFocus={this.handleOnInputFocus}
+              onCalendarButtonClick={this.handleOnCalendarButtonClick}
+              inputAttributes={inputAttributes}
+              releaseFocus={releaseFocus}
+              requestFocus={requestFocus}
+              shouldShowPicker={!this.isDefaultDateAcceptable && this.state.selectedDate === null}
+            />
           )}
           excludeDates={exludeMomentDates}
           filterDate={filterDate}

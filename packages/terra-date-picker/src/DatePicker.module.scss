@@ -51,8 +51,8 @@
   .required {
     color: var(--terra-date-picker-required-color , #e50000);
     display: inline-block;
-    float: left;
     padding-right: var(--terra-date-picker-required-padding-right, 0.357em);
+    vertical-align: center;
   }
 }
 /* stylelint-enable */

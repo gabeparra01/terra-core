@@ -150,3 +150,12 @@ exports[`should render a disabled date picker 1`] = `
   utcOffset={0}
 />
 `;
+
+exports[`should render a required date input and date picker 1`] = `
+<DatePicker
+  disabled={false}
+  name="date-input"
+  required={true}
+  utcOffset={0}
+/>
+`;
